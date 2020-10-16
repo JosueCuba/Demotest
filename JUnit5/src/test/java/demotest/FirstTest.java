@@ -11,11 +11,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FirstTest {
 
     @Test
-    @DisplayName("My 1st JUnit 5 test! 😎")
+    @DisplayName("¡Mi primera prueba de JUnit 5!  😎")
     void myFirstTest(TestInfo testInfo) {
         Calculator calculator = new Calculator();
-        assertEquals(2, calculator.add(1, 1), "1 + 1 should equal 2");
-        assertEquals("My 1st JUnit 5 test! 😎", testInfo.getDisplayName(), () -> "TestInfo is injected correctly");
+        assertEquals(2, calculator.add(1, 1), "1 + 1 debería ser igual 2");
+        assertEquals("¡Mi primera prueba de JUnit 5!  😎", testInfo.getDisplayName(), () -> "TestInfo se inyecta correctamente");
     }
 
 }

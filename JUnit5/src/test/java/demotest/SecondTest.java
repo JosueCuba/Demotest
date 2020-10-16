@@ -10,7 +10,7 @@ public class SecondTest {
     @Test
     @Disabled
     void mySecondTest() {
-        assertEquals(2, 1, "2 is not equal to 1");
+        assertEquals(2, 1, "2 no es igual a 1");
     }
 
     @Test

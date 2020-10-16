@@ -9,6 +9,7 @@ public class RomanNumeralTest {
     public void initialize() {
         this.roman = new RomanNumeral();
     }
+
     @Test
     public void singleNumber() {
         int result = roman.convert("I");
